@@ -6,7 +6,7 @@ import com.example.busschedule.database.schedule.Schedule
 import com.example.busschedule.database.schedule.ScheduleDao
 import kotlinx.coroutines.flow.Flow
 
-class BusScheduleViewModel(private val scheduleDao: ScheduleDao): ViewModel() {
+class BusScheduleViewModel(private val scheduleDao: ScheduleDao) : ViewModel() {
 
     fun fullSchedule(): Flow<List<Schedule>> = scheduleDao.getAll()
 

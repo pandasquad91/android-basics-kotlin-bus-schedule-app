@@ -31,7 +31,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-class StopScheduleFragment: Fragment() {
+class StopScheduleFragment : Fragment() {
 
     companion object {
         var STOP_NAME = "stopName"
